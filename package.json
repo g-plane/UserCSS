@@ -1,0 +1,13 @@
+{
+  "name": "usercss",
+  "version": "1.0.0",
+  "description": "Collection of CSS files which can be installed by \"Stylus\" browser extension.",
+  "author": "Pig Fang <g-plane@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --write css"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
