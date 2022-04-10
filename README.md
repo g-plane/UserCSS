@@ -12,6 +12,12 @@ Collection of CSS files which can be installed by "Stylus" browser extension.
 | :---------------------------------------------------------------: | :--------------------------------------------------------------: |
 | ![](./screenshots/fix-github-trending-language-color/before.webp) | ![](./screenshots/fix-github-trending-language-color/after.webp) |
 
+### GitHub Font Override
+
+[![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/g-plane/UserCSS/main/css/github-font-override.user.css)
+
+Customize GitHub font, supporting UI font and monospace.
+
 ## License
 
 MIT License

@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           GitHub Font Override
+@description    Customize GitHub font.
+@namespace      github.com/g-plane
+@version        1.0.0
+@author         Pig Fang
+@license        MIT
+@homepageURL    https://github.com/g-plane/UserCSS
+@var            text ui-font "UI Font" system-ui
+@var            text monospace "Monospace" monospace
+==/UserStyle== */
+
+@-moz-document domain("github.com"),
+domain("deno.com"),
+domain("deno.land") {
+  body,
+  .markdown-body,
+  .hx_tooltip {
+    font-family: var(--ui-font);
+  }
+
+  .blob-code-inner,
+  .markdown-body .highlight pre,
+  .markdown-body pre,
+  .markdown-body code {
+    font-family: var(--monospace);
+  }
+}
