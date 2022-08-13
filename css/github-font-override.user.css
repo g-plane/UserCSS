@@ -19,10 +19,13 @@ domain("deno.land") {
     font-family: var(--ui-font);
   }
 
+  pre,
+  code,
   .blob-code-inner,
-  .markdown-body .highlight pre,
-  .markdown-body pre,
-  .markdown-body code {
+  .commit .sha-block,
+  .commit .sha,
+  .file-info,
+  .text-mono {
     font-family: var(--monospace);
   }
 }
