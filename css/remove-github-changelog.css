@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Remove GitHub Changelog
+@description    Remove GitHub Changelog from dashboard.
+@namespace      github.com/g-plane
+@version        1.0.0
+@author         Pig Fang
+@license        MIT
+@homepageURL    https://github.com/g-plane/UserCSS
+==/UserStyle== */
+
+.dashboard-changelog {
+  display: none;
+}
