@@ -25,7 +25,8 @@ domain("deno.land") {
   .commit .sha-block,
   .commit .sha,
   .file-info,
-  .text-mono {
+  .text-mono,
+  .react-code-text {
     font-family: var(--monospace);
   }
 }
