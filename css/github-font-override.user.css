@@ -2,7 +2,7 @@
 @name           GitHub Font Override
 @description    Customize GitHub font.
 @namespace      github.com/g-plane
-@version        1.0.0
+@version        1.1.0
 @author         Pig Fang
 @license        MIT
 @homepageURL    https://github.com/g-plane/UserCSS
@@ -15,7 +15,8 @@ domain("deno.com"),
 domain("deno.land") {
   body,
   .markdown-body,
-  .hx_tooltip {
+  .hx_tooltip,
+  [class^="BaseStyles"] {
     font-family: var(--ui-font);
   }
 
@@ -24,9 +25,10 @@ domain("deno.land") {
   .blob-code-inner,
   .commit .sha-block,
   .commit .sha,
+  .commit-tease-sha,
   .file-info,
   .text-mono,
   .react-code-text {
-    font-family: var(--monospace);
+    font-family: var(--monospace) !important;
   }
 }
