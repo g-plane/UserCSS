@@ -10,9 +10,7 @@
 @var            text monospace "Monospace" monospace
 ==/UserStyle== */
 
-@-moz-document domain("github.com"),
-domain("deno.com"),
-domain("deno.land") {
+@-moz-document domain("github.com") {
   body,
   .markdown-body,
   .hx_tooltip,
