@@ -2,12 +2,14 @@
 @name           Remove GitHub Changelog
 @description    Remove GitHub Changelog from dashboard.
 @namespace      github.com/g-plane
-@version        1.0.0
+@version        1.0.1
 @author         Pig Fang
 @license        MIT
 @homepageURL    https://github.com/g-plane/UserCSS
 ==/UserStyle== */
 
-.dashboard-changelog {
-  display: none;
+@-moz-document domain("github.com") {
+  .dashboard-changelog {
+    display: none;
+  }
 }
