@@ -2,7 +2,7 @@
 @name           GitHub Font Override
 @description    Customize GitHub font.
 @namespace      github.com/g-plane
-@version        1.3.0
+@version        1.4.0
 @author         Pig Fang
 @license        MIT
 @homepageURL    https://github.com/g-plane/UserCSS
@@ -28,7 +28,8 @@
   .file-info,
   .text-mono,
   .react-code-text,
-  .input-monospace {
+  .input-monospace,
+  .react-blob-print-hide {
     font-family: var(--monospace) !important;
   }
 }
