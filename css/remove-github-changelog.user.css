@@ -8,7 +8,7 @@
 @homepageURL    https://github.com/g-plane/UserCSS
 ==/UserStyle== */
 
-@-moz-document domain("github.com") {
+@-moz-document domain('github.com') {
   .dashboard-changelog {
     display: none;
   }

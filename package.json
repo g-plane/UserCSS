@@ -5,9 +5,9 @@
   "author": "Pig Fang <g-plane@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "fmt": "prettier --write css"
+    "fmt": "dprint fmt"
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "dprint": "^0.42.5"
   }
 }

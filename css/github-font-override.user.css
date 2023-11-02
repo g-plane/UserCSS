@@ -10,11 +10,8 @@
 @var            text monospace "Monospace" monospace
 ==/UserStyle== */
 
-@-moz-document domain("github.com") {
-  body,
-  .markdown-body,
-  .hx_tooltip,
-  [class^="BaseStyles"] {
+@-moz-document domain('github.com') {
+  body, .markdown-body, .hx_tooltip, [class^='BaseStyles'] {
     font-family: var(--ui-font);
   }
 
